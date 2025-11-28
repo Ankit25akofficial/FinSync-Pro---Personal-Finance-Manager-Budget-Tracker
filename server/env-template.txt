@@ -1,0 +1,8 @@
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/finsync-pro
+CLERK_SECRET_KEY=sk_test_placeholder_key_replace_with_your_clerk_key
+CLERK_PUBLISHABLE_KEY=pk_test_placeholder_key_replace_with_your_clerk_key
+JWT_SECRET=finsync-secret-key-change-in-production
+NODE_ENV=development
+CLIENT_URL=http://localhost:5173
+
