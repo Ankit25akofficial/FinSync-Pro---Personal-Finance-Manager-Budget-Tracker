@@ -48,6 +48,7 @@ function App() {
     }
     
     return () => {
+      
       // Cleanup socket on unmount
       if (isSignedIn) {
         const { disconnectSocket } = require('./utils/socket');
